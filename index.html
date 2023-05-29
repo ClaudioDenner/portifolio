@@ -1,1 +1,198 @@
-<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/logoCDenner.png"><title>CDenner.com</title><link rel="canonical" href="https://cdenner.com.br/"><link rel="stylesheet" href="/assets/css/style.css"><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/23db63807d.js" crossorigin="anonymous"></script><link rel="apple-touch-icon" href="/docs/5.3/assets/img/favicons/apple-touch-icon.png" sizes="180x180"><link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png"><link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png"><link rel="manifest" href="/docs/5.3/assets/img/favicons/manifest.json"><link rel="mask-icon" href="/docs/5.3/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9"><link rel="icon" href="/docs/5.3/assets/img/favicons/favicon.ico"><meta name="theme-color" content="orange"><script defer="defer" src="/js/chunk-vendors.28f2a55d.js"></script><script defer="defer" src="/js/app.a44c2d9f.js"></script><link href="/css/app.4144e1e9.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but portifolio-claudio doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div></body></html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/embla.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    
+    <title>CDenner</title>
+
+</head>
+<body id="app">
+    
+
+    <nav class="nav-fixed">
+        <div class="buttonMenu" @click="showMenuMobile()">
+            &#9776;
+        </div>
+        <ul>
+            <a href="#" :class="{ 'menu-active': menu[0].active }" @click="toggleActive(0)"><li>HOME</li></a>
+            <a href="#projects"><li :class="{ 'menu-active': menu[1].active }" @click="toggleActive(1)">PROJETOS</li></a>
+            <a href="#aboutMe"><li :class="{ 'menu-active': menu[2].active }" @click="toggleActive(2)">SOBRE MIM</li></a>
+            <a href="#contact"><li :class="{ 'menu-active': menu[3].active }" @click="toggleActive(3)">CONTATO</li></a>
+            
+
+        </ul>
+    </nav>
+
+
+
+
+    <div class="container">
+
+        <!---->
+
+
+        <div class="nav-space">
+
+        </div>
+
+        <div class="cover">
+            <img src="imgs/eu.png">
+            <div class="cover-desktop">
+                <span style="display: block; color: rgb(228, 228, 228); font-size: 1.5rem;">Claudio Denner</span><br>
+                <span style="display: block; color: #FDC333; font-size: 3em; text-align: center;">Web Development</span><br>
+                <span style="display: block; color: rgb(228, 228, 228); text-align: right;font-size: 1.5rem;">Seja bem vindo(a)!</span>
+            </div>
+            <div class="cover-mobile">
+                <span style="display: block; color: rgb(228, 228, 228); font-size: 1.5rem; text-align: center;">Claudio Denner</span><br>
+                <span style="display: block; color: #FDC333; font-size: 2em; text-align: center;">Web Development</span><br>
+                <span style="display: block; color: rgb(228, 228, 228); text-align: center;font-size: 1.5rem;">Seja bem vindo(a)!</span>
+            </div>
+        </div>
+
+
+        <div class="about-me">
+
+            <h1 class="title-section-1" id="aboutMe">Sobre Mim</h1>
+
+
+            <div class="presentation">
+                <p><span style="font-size: 2rem;">Olá</span>, tenho 29 anos, desenvolvo profissionalmente a pouco mais de 2 anos
+                    e é um clichê falar mas sou um apaixonado por tecnologia.
+                    Atuo de maneira <span style="color:#23ce95">FullStack</span> no desenvolvimento Web dentro dos ecossistemas <span style="color: #FDC333;">Javascript/Typescript</span> e <span style="color: rgb(69, 109, 218);">PHP</span>.
+                </p>
+            </div>
+
+            <div class="education">
+                <h1 style="color:rgb(209, 209, 209) ;margin-bottom: 5px; text-align: center;">Formação</h1>
+                <ul style="width: 100%; padding: 20px;">
+                    <li>Licenciatura em Ciências Biológicas - 2018/2023</li>
+                </ul>
+            </div>
+
+            <div class="courses">
+                <h1 style="color:rgb(209, 209, 209) ;margin-bottom: 5px; width: 100%; text-align: center;">Cursos & Certificados</h1>
+                <ul style="width: 100%; padding: 20px;">
+                    <li><a href="#">NodeJS - 10h</a></li>
+                    <li><a href="#">PHP - 30h</a></li>
+                    <li><a href="#">Infraestrutura Web - 5h</a></li>
+                </ul>
+            </div>
+
+            <div class="contact">
+                <h1  id="contact">Contato</h1>
+                <ul style="width: 100%;">
+                    <li><i class="bi bi-envelope"></i><a href="#">claudiodenner2@gmail.com</a></li>
+                    <li><i class="bi bi-whatsapp"></i><a href="#">Phone number</a></li>
+                    <li><i class="bi bi-linkedin"></i><a href="#">LinkedIn</a></li>
+                    <li><i class="bi bi-github"></i><a href="#">GitHub</a></li>
+                    <li></li>
+                </ul>
+
+            </div>
+
+            <div class="skills">
+                <h1 style="color:rgb(209, 209, 209) ;margin-bottom: 5px; text-align: center;">Tecnologias e Ferramentas</h1>
+
+                <div>
+                    
+                    <img src="imgs/icons/html.60731c76.png">
+                    <img src="imgs/icons/css.ac0ac865.png">
+                    <img src="imgs/icons/bootstrap.669abc02.png">
+
+
+                </div>
+                <div>
+                    <img src="imgs/icons/js.e371991e.png">
+                    <img src="imgs/icons/typescript.fcf20e7c.png">
+                    <img src="imgs/icons/reactjs.5b4225d7.png">
+
+                </div>
+                <div>
+                    <img src="imgs/icons/php.5f628bc2.png">
+                    <img src="imgs/icons/laravel3.ffbf5835.png">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/2367px-Vue.js_Logo_2.svg.png">
+                </div>
+                <div>
+                    <img src="imgs/icons/nodejs.6e11bbd1.png">
+                    <img src="https://cdn.iconscout.com/icon/free/png-256/free-mongodb-3629020-3030245.png">
+                    <img src="imgs/icons/mysql2.45e91e25.png">
+
+
+                </div>
+               
+            </div>
+
+            
+        </div>
+
+        <!---->
+
+
+    <div class="projects" >
+        <h1 class="title-section-1" id="projects">Projetos</h1>
+
+
+
+        <div class="my-projects" >
+
+            <div class="my-projects-item" v-for="projeto in projects">
+               <a :href="projeto.url" target="_blank"><img :src="projeto.urlImg"></a>
+            </div>
+
+        </div>
+
+
+        <h2 class="title-section-1">Baby Steps</h2>
+        <div class="my-baby-steps">
+
+            <div class="my-baby-steps-item" v-for="step in steps">
+                <a :href="step.url" target="_blank">
+                    <img :src="step.urlImg">
+                    <h4>{{step.titulo}}</h4>
+
+                </a>
+
+            </div>
+            
+        </div>
+
+
+  
+    </div>
+        
+
+        <!---->
+
+
+
+
+
+        <!---->
+
+        <footer class="footer" >
+
+            <h3>cdenner.com.br</h3>
+                
+        </footer>
+
+
+    </div>
+
+
+
+<script src="js/vue.global.prod.js" type="module"></script>
+
+
+
+</body>
+</html>
+
