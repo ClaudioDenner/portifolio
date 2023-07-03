@@ -53,6 +53,12 @@ const babySteps = [
         urlRepository:'',
         urlImg: "imgs/BabySteps/slider.gif"
     },
+    {
+        titulo:'TypeHead',
+        url:'https://claudiodenner.github.io/BabyStepsFrontEnd/Projeto-TypeHead/',
+        urlRepository:'https://github.com/ClaudioDenner/BabyStepsFrontEnd/tree/main/Projeto-TypeHead',
+        urlImg: "imgs/BabySteps/TypeHead.gif"
+    },
 
 ]
 

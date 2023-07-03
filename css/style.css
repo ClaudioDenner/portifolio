@@ -434,6 +434,10 @@ html {
         height:fit-content;
     }
 
+    .projects .my-baby-steps{
+        justify-content: flex-start;
+    }
+
     .projects .my-baby-steps-item{
         width: 45%;
     }
