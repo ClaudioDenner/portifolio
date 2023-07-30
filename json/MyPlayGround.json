@@ -69,6 +69,13 @@
             "nomeGif":"TypeHead.gif",
             "urlProject":"https://claudiodenner.github.io/MyPlayground/Projeto-TypeHead/",
             "urlRepository":"https://github.com/ClaudioDenner/MyPlayground/tree/main/Projeto-TypeHead"
+        },
+        {
+            "id":"11",
+            "title":"Popovers",
+            "nomeGif":"Popover.gif",
+            "urlProject":"https://claudiodenner.github.io/MyPlayground/Projeto-Popovers/",
+            "urlRepository":"https://github.com/ClaudioDenner/MyPlayground/tree/main/Projeto-Popovers/"
         }
     ]
 }
