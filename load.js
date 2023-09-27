@@ -1,1 +1,0 @@
-const load = document.getElementById('load')
