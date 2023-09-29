@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1440px;
+    width: 100%;
+    min-height: 600px;
+}
+
+.aboutMe{
+    width: 50%;
+    display: flex;
+
+}
+
+.aboutMe img{
+    width:45%;
+
+}
