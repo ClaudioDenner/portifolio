@@ -6,7 +6,7 @@
     flex-direction: row-reverse;
     width: 100%;
     max-width: 1440px;
-    border-bottom: 2px solid var(--ln-bold);
+
 
 
 }
@@ -41,7 +41,7 @@
 
 .textCover h1{
     color: var(--h1);
-    font-size: 2.5rem;
+    font-size: 2.3rem;
 }
 
 .textCover p{
@@ -53,18 +53,29 @@
     margin-top: 30px;
 }
 .textCover ul{
-    width: 90%;
+    width: 50%;
     padding: 10px;
+    
    
 
 }
 .textCover ul li{
-    color: var( --p);
+    color: #ffff;
+    background-image:linear-gradient(to right, rgb(79, 79, 207), green);
+    border-radius: 10px;
+    padding: 5px;
+    
 
 }
 
 .textCover ul li svg{
     margin-left: 8%;
+    fill: #fff;
+}
+
+.spanName{
+    background-color: blue;
+    color: #ffff;
 }
 
 
@@ -95,6 +106,12 @@
         margin-top: 10px;
         transition: 0.5s ease;
         
+    }
+
+    .textCover h1{
+        font-size: 2rem;
+  
+        text-align: justify;
     }
 
     .textCover ul{

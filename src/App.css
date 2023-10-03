@@ -4,3 +4,13 @@
     align-items: center;
     flex-direction: column;
 }
+
+.title_section{
+    color: var(--h1);
+    font-size: 1rem;
+    margin: 20px 0px;
+    text-align: center;
+    width: 100%;
+    padding-left: 5px;
+    max-width: 1440px;
+}
