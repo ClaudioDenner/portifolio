@@ -15,16 +15,25 @@
   --bg-dark:#18181A;
   --h1-dark:rgb(240, 240, 240);
   --p-dark:rgb(226, 226, 226);
+
+  --orangeWhite:orange;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
-  
+
 }
+
+
+
+
 body{
   background-color: var(--bg);
 }

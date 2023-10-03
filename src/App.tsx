@@ -7,6 +7,8 @@ import Cover from './components/Cover/Cover';
 import { Tools } from './components/Tools/Tools.tsx';
 import ProjectsSection1 from './components/Projects/Section1/ProjectsSection1';
 import ProjectsSection2 from './components/Projects/Section2/ProjectsSection2';
+import About from './components/About/About.tsx';
+import Contact from './components/Contact/Contact.tsx';
 
 
 //import { BrowserRouter, Routes, Route } from 'react-router-dom'
@@ -30,6 +32,7 @@ function themeDark(){
   document.documentElement.style.setProperty("--h1", "rgb(240, 240, 240)")
   document.documentElement.style.setProperty("--ln-bold", "rgba(49, 47, 47, 0.164);")
   document.documentElement.style.setProperty("--p", "rgb(226, 226, 226)")
+  document.documentElement.style.setProperty("--orangeWhite", "white")
 
 
   
@@ -40,6 +43,8 @@ function themeLight(){
   document.documentElement.style.setProperty("--h1", "rgb(43, 42, 42)")
   document.documentElement.style.setProperty("--ln-bold", "rgb(240, 240, 240)")
   document.documentElement.style.setProperty("--p", "rgb(104, 104, 104)")
+  document.documentElement.style.setProperty("--orangeWhite", "orange")
+
 
 
 }
@@ -61,9 +66,13 @@ function App() {
     <ThemeContext.Provider value={{theme, setTheme}}>
       <Nav />
       <Cover />
-      <h1 className='title_section' id='projetos'>Ferramentas & Stack</h1>
+      <h1 className='title_section' id='about'>Sobre</h1>
+      <About />
+      <h1 className='title_section' id='contact'>Contato</h1>
+      <Contact />
+      <h1 className='title_section'>Ferramentas & Stack</h1>
       <Tools />
-      <h1 className='title_section' id='projetos'>Projetos</h1>
+      <h1 className='title_section' id='projects'>Projetos</h1>
       <ProjectsSection1 />
       <h1 className='title_section' >Meu Playgound</h1>
       <ProjectsSection2 />

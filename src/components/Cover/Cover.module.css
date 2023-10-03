@@ -61,8 +61,8 @@
 }
 .textCover ul li{
     color: #ffff;
-    background-image:linear-gradient(to right, rgb(79, 79, 207), green);
     border-radius: 10px;
+    background-image:linear-gradient(to right, rgb(79, 79, 207), green);
     padding: 5px;
     
 
