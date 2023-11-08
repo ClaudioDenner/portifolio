@@ -1,0 +1,25 @@
+.container{
+    width: 100%;
+    margin: 10px;
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+    flex-wrap: wrap;
+    
+}
+
+.skill{
+    width: 28px;
+    filter: grayscale(80%);
+    filter: opacity(30%);
+    transition: 0.3 ease;
+}
+
+.skill:hover{
+    filter: grayscale(0%);
+    filter: opacity(100%);
+    transition: 0.3 ease;
+
+}

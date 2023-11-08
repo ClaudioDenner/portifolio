@@ -1,0 +1,41 @@
+.container{
+    max-width: 1440px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+
+.cdenner{
+    width: 15%;
+    border-radius: 50%;
+    background-color:var(--orangeWhite);
+    margin-right: 15px;
+}
+
+.apresentation{
+    color: var(--p);
+    text-align: justify;
+    width: 40%;
+    text-indent: 30px;
+
+}
+
+@media(max-width:768px){
+    .container{
+        max-width: 768px;
+        flex-direction: column;
+    }
+
+    .cdenner{
+        width: 40%;
+        margin-bottom: 10px;
+    }
+
+    .apresentation{
+        width: 90%;
+    }
+}
