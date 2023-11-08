@@ -81,7 +81,7 @@ export const Section2 = [
         {
             "id":"12",
             "title":"Drag and Drops",
-            "nomeGif":"Popover.gif",
+            "nomeGif":"dragAndDrop.gif",
             "urlProject":"https://claudiodenner.github.io/MyPlayground/Projeto-DragDrop/",
             "urlRepository":"https://github.com/ClaudioDenner/MyPlayground/tree/main/Projeto-DragDrop/"
         }
