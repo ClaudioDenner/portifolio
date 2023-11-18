@@ -5,7 +5,7 @@ export const Section1 = [
         "title":"Interface Newsletter",
         "nameImg":"interfaceNewsLetter.png",
         "urlProject":"https://brilliant-souffle-69bf16.netlify.app/",
-        "type":"Projeto Pessoal",
+        "type":"Interface molde para uma página de suporte",
         "tools":["NextJS","React","Typescript","Netlify"],
         "plataform":"Web"
 
@@ -15,7 +15,7 @@ export const Section1 = [
         "title":"Interface Page Produto E-commerce",
         "nameImg":"interfaceEcommerce.png",
         "urlProject":"https://claudiodenner.github.io/e-commerce-page-product/",
-        "type":"Projeto Pessoal",
+        "type":"Interface molde para um Ecommerce",
         "tools":["React","Typescript","Vite","swiper","styled-components"],
         "plataform":"Web"
 
@@ -25,7 +25,7 @@ export const Section1 = [
         "title":"Interface Calculadora de Idade",
         "nameImg":"Interface-CalculadoraIdade.png",
         "urlProject":"https://claudiodenner.github.io/age-calculator-exercise/",
-        "type":"Projeto Pessoal",
+        "type":"Interface de Utilidade",
         "tools":["React","Typescript","Vite"],
         "plataform":"Web"
 
@@ -35,7 +35,7 @@ export const Section1 = [
         "title":"Personal Finances",
         "nameImg":"personalFinances.png",
         "urlProject":"https://claudiodenner.github.io/project-personal-finances/",
-        "type":"Projeto Pessoal",
+        "type":"Auxiliadora em cálculos de finanças pessoais simples",
         "tools":["React","Javascript"],
         "plataform":"Web"
 
@@ -45,7 +45,7 @@ export const Section1 = [
         "title":"Anashoes Salvador",
         "nameImg":"anashoessalvador.png",
         "urlProject":"http://anashoessalvador.com.br/",
-        "type":"Freelancer",
+        "type":"Catálogo Virtual",
         "tools":["VueJS","Javascript","Bootstrap"],
         "plataform":"Web"
 
@@ -55,9 +55,19 @@ export const Section1 = [
         "title":"Eduardo Amarante",
         "nameImg":"eduamarante.png",
         "urlProject":"https://emsamarante.github.io/",
-        "type":"Freelancer",
+        "type":"Portifólio Profissional",
         "tools":["HTML","CSS","Javascript","SplideJS"],
         "plataform":"Web"
+
+    },
+    {
+        "id":7,
+        "title":"ArteIlustraDigital",
+        "nameImg":"arteilustra.png",
+        "urlProject":"https://arte-ilustra-digital.vercel.app/",
+        "type":"Blog de Arte Digital",
+        "tools":["React Native","Gluestack","Firebase","NextJS","Chakra-ui","Typescript"],
+        "plataform":"Mobile/Web"
 
     },
     
