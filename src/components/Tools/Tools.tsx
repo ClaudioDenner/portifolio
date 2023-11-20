@@ -21,7 +21,7 @@ import IconGrafQL from '/assets/grafql.png'
 import IconFigma from '/assets/figma.svg'
 import IconJest from '/assets/jest.png'
 import IconChacka from '/assets/chacka.svg'
-
+import LazyLoad from 'react-lazy-load';
 
 const imgs = [IconJS, IconTS, IconReact, IconNodeJS, IconNextJS, IconVueJS, IconNest, IconReactNative, IconMongoDB, IconMySQL, IconFirebase,
 IconPostgree, IconVite, IconTailwind, IconBootstrap, IconSass, IconGrafQL, IconFigma, IconJest, IconChacka
@@ -34,7 +34,9 @@ export const Tools = () => {
     <div className={styles.container}>
       {
         imgs.map(e =>
+          <LazyLoad>
           <img src={e}  className={styles.skill} />
+          </LazyLoad>
           )
       }
     </div>
