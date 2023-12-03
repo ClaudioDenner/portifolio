@@ -8,7 +8,7 @@ import ProjectsSection1 from './components/Projects/Section1/ProjectsSection1';
 import ProjectsSection2 from './components/Projects/Section2/ProjectsSection2';
 import About from './components/About/About.tsx';
 import Contact from './components/Contact/Contact.tsx';
-import TabsProjects from './components/TabsProjects/TabsProjects.tsx';
+//import TabsProjects from './components/TabsProjects/TabsProjects.tsx';
 
 
 //import { BrowserRouter, Routes, Route } from 'react-router-dom'
@@ -71,7 +71,6 @@ function App() {
       <h1 className='title_section' id='contact'>Contato</h1>
       <Contact />
       <h1 className='title_section' id='projects'>Projetos</h1>
-      <TabsProjects />
       <ProjectsSection1 />
       <h1 className='title_section' >Meu Playgound</h1>
       <ProjectsSection2 />

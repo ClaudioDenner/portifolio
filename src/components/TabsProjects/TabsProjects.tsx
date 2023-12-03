@@ -2,7 +2,7 @@ import style from './TabsProjects.module.css'
 
 function TabsProjects() {
   return (
-    <div>TabsProjects</div>
+    <div className={style.container}>TabsProjects</div>
   )
 }
 
