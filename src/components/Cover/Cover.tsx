@@ -15,8 +15,8 @@ function Cover() {
         </div>
 
         <div className={styles.textCover}>
-                <h1>Bem vindo(a) ao meu portifólio! Sou um programador <span className={styles.spanName}>Frontend!</span></h1>
-                <p>Apaixonado por transformar ideias em realidade digital. Estou pronto para enfrentar qualquer desafio que envolva a criação de soluções digitais inovadoras.</p>
+                <h1>Bem vindo(a) ao meu portifólio! Sou um programador <span className={styles.spanName}>FullStack!</span></h1>
+                <p>Entregando soluções através de linhas de código.</p>
 
                 <h2>O que eu faço?</h2>
 

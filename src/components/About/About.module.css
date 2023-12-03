@@ -3,10 +3,22 @@
     width: 100%;
     padding: 20px;
     display: flex;
-    align-items: center;
+    align-items:flex-start;
     justify-content: center;
     overflow: hidden;
 
+}
+
+.title_section{
+    color: var(--h1);
+    font-size: 1rem;
+    margin: 15px 0px;
+    text-align: center;
+}
+
+.container_2{
+
+    width: 50%;
 }
 
 .cdenner{
@@ -19,7 +31,7 @@
 .apresentation{
     color: var(--p);
     text-align: justify;
-    width: 40%;
+    width: 100%;
     text-indent: 30px;
 
 }
@@ -27,6 +39,15 @@
 @media(max-width:768px){
     .container{
         max-width: 768px;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .container_2{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         flex-direction: column;
     }
 

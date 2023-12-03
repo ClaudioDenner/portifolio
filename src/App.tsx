@@ -4,11 +4,11 @@ import './App.css'
 import { createContext, useState, useEffect } from 'react';
 import Nav from './components/Nav/Nav'
 import Cover from './components/Cover/Cover';
-import { Tools } from './components/Tools/Tools.tsx';
 import ProjectsSection1 from './components/Projects/Section1/ProjectsSection1';
 import ProjectsSection2 from './components/Projects/Section2/ProjectsSection2';
 import About from './components/About/About.tsx';
 import Contact from './components/Contact/Contact.tsx';
+import TabsProjects from './components/TabsProjects/TabsProjects.tsx';
 
 
 //import { BrowserRouter, Routes, Route } from 'react-router-dom'
@@ -66,13 +66,12 @@ function App() {
     <ThemeContext.Provider value={{theme, setTheme}}>
       <Nav />
       <Cover />
-      <h1 className='title_section' id='about'>Sobre</h1>
+      <h1 className='title_section' id='about'></h1>
       <About />
       <h1 className='title_section' id='contact'>Contato</h1>
       <Contact />
-      <h1 className='title_section'>Ferramentas & Stack</h1>
-      <Tools />
       <h1 className='title_section' id='projects'>Projetos</h1>
+      <TabsProjects />
       <ProjectsSection1 />
       <h1 className='title_section' >Meu Playgound</h1>
       <ProjectsSection2 />

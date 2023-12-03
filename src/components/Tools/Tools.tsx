@@ -23,9 +23,14 @@ import IconJest from '/assets/jest.png'
 import IconChacka from '/assets/chacka.svg'
 import LazyLoad from 'react-lazy-load';
 
+/*
 const imgs = [IconJS, IconTS, IconReact, IconNodeJS, IconNextJS, IconVueJS, IconNest, IconReactNative, IconMongoDB, IconMySQL, IconFirebase,
 IconPostgree, IconVite, IconTailwind, IconBootstrap, IconSass, IconGrafQL, IconFigma, IconJest, IconChacka
 ]
+*/
+
+
+const imgs = [IconTS,IconNodeJS, IconNextJS, IconNest, IconReactNative]
 
 export const Tools = () => {
 
