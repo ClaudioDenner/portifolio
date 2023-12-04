@@ -2,7 +2,7 @@ import styles from './Cover.module.css'
 //import imgCover from '/assets/cover.png'
 //import imgCover2 from '/assets/cover2.png'
 //import imgCover3 from '/assets/cover3.png'
-import imgCover3 from '/assets/cover-ok.gif'
+import imgCover3 from '/assets/cover3.png'
 
 
 
