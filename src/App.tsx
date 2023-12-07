@@ -8,10 +8,8 @@ import ProjectsSection1 from './components/Projects/Section1/ProjectsSection1';
 import ProjectsSection2 from './components/Projects/Section2/ProjectsSection2';
 import About from './components/About/About.tsx';
 import Contact from './components/Contact/Contact.tsx';
-//import TabsProjects from './components/TabsProjects/TabsProjects.tsx';
+import ProjectsSection3 from './components/Projects/Section3/Section3.tsx';
 
-
-//import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 const DEFAULT_VALUE_THEME = {
   theme:false,
@@ -70,10 +68,13 @@ function App() {
       <About />
       <h1 className='title_section' id='contact'>Contato</h1>
       <Contact />
-      <h1 className='title_section' id='projects'>Projetos</h1>
+      <h1 className='title_section' id='projects' style={{marginTop:50}}>Projetos</h1>
       <ProjectsSection1 />
+      <h1 className='title_section' >FrontendMentor</h1>
+      <ProjectsSection3 />
       <h1 className='title_section' >Meu Playgound</h1>
       <ProjectsSection2 />
+
     </ThemeContext.Provider>
     </div>
     </>

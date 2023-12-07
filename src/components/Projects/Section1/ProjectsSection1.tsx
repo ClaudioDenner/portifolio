@@ -4,7 +4,6 @@ import { Section1 } from '../../../bd/Section1'
 import LazyLoad from 'react-lazy-load';
 
 
-
 const newArr = Section1.reverse()
 
 

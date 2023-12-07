@@ -23,6 +23,7 @@
     filter: opacity(30%);
     transition: 0.3 ease;
     animation: rotateItems 10s infinite;
+    filter: brightness(80%);
 }
 
 .skill:hover{
