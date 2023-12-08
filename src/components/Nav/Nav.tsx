@@ -1,6 +1,4 @@
 import styles from './Nav.module.css'
-import IconMoon from 'bootstrap-icons/icons/moon-fill.svg'
-import IconSun from 'bootstrap-icons/icons/sun.svg'
 import { useState, useContext} from 'react'
 import {ThemeContext} from '../../App'
 import { BiSolidToggleRight, BiSolidToggleLeft  } from "react-icons/bi";
