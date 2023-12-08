@@ -89,14 +89,11 @@
     align-items: center;
     justify-content:flex-end;
     padding-right: 10px;
+    font-size: 2rem;
+
+
 }
 
-.darkLightMode_container img{
-    width: 20px;
-    cursor: pointer;
-    margin-top: 3px;
-    
-}
 
 .buttonCloseMenuMobile{
     width: 100%;
@@ -166,4 +163,15 @@
 
         display:block
     }
+    .darkLightMode_container{
+
+        font-size: 2rem;
+
+        justify-content: center;
+        width: fit-content;
+        padding-right: 0px;
+        
+
+    }
+
 }

@@ -3,6 +3,7 @@ import IconMoon from 'bootstrap-icons/icons/moon-fill.svg'
 import IconSun from 'bootstrap-icons/icons/sun.svg'
 import { useState, useContext} from 'react'
 import {ThemeContext} from '../../App'
+import { BiSolidToggleRight, BiSolidToggleLeft  } from "react-icons/bi";
 
 
 function Nav() {
@@ -61,7 +62,9 @@ function Nav() {
             </div>
 
             <div className={styles.darkLightMode_container}>
-                <img src={darkMode ? IconSun : IconMoon}  onClick={themeMode} />
+                {
+                  darkMode ? <BiSolidToggleRight onClick={themeMode} /> : <BiSolidToggleLeft onClick={themeMode}  />
+                }
             </div>
         </nav>
 
