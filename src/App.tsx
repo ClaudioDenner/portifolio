@@ -49,7 +49,7 @@ function themeLight(){
 
 function App() {
 
-  const [ theme, setTheme] = useState(false)
+  const [ theme, setTheme] = useState(true)
 
   useEffect(()=>{
     theme ? themeDark():themeLight()
@@ -66,13 +66,13 @@ function App() {
       <Cover />
       <h1 className='title_section' id='about'></h1>
       <About />
-      <h1 className='title_section' id='contact'>Contato</h1>
+      <h1 className='title_section' id='contact'>Contact</h1>
       <Contact />
-      <h1 className='title_section' id='projects' style={{marginTop:50}}>Projetos</h1>
+      <h1 className='title_section' id='projects' style={{marginTop:50}}>Projects</h1>
       <ProjectsSection1 />
       <h1 className='title_section' >FrontendMentor</h1>
       <ProjectsSection3 />
-      <h1 className='title_section' >Meu Playgound</h1>
+      <h1 className='title_section' >My Playground</h1>
       <ProjectsSection2 />
 
     </ThemeContext.Provider>
