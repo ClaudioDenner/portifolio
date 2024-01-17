@@ -1,177 +1,57 @@
 .container{
-    min-height: 80px;
     position: fixed;
-    z-index: 2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    max-width: 1440px;
     top: 0;
-    background-color: var(--bg);
-
-}
-
-.nav{
-    padding: 0px 10px;
-    border-bottom: 2px solid var(--ln);
-    min-height: 80px;
-    width: 100%;
+    left: 0;
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: space-between;
+    background-color: var(--backgroundSections);
+    width: 100%;
+    z-index: 100;
+
+
 }
 
-.listDesktop{
+.flex{
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding: 10px;
-    width: 10%;
+    align-items: center;
+    justify-content: center;
 }
 
-.listDesktop li{
-    border-left: 2px solid var(--ln-bold);
-    padding-left: 4px;
+.logo{
+    margin: 20px 26px;
+    width: 241px;
+    height: 77px;
+    cursor: pointer;
+    transition: 0.5s ease;
+
+}
+.logo:hover{
+    filter: brightness(150%);
+    transition: 0.5s ease;
 }
 
-.listDesktop li a{
-    color:var(--h1);
-    font-size: 0.8rem;
-    transition: 0.3s ease;
+.menu{
+    margin-left: 100px;
+    display: flex;
+    
+}
+
+.menu a{
+    color: var(--textWhite);
+    margin-right: 70px;
+    padding-bottom: 0px;
+    padding: 5px;
+    transition: 0.5s ease;
+    background-color: green;
+    
     
 
 }
 
-.listDesktop li a:hover{
-    font-size: 0.9rem;
-    transition: 0.3s ease;
+.menuSelected{
+    border-bottom: solid 2px var(--redPink);
+    transition: 0.5s ease;
+    
 }
 
-.listMobile{
-    display: none;
-}
-
-.buttonMenuMobile{
-    display: none;
-}
-
-.container_name{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-}
-
-.name{
- margin-right: 5px;
- font-size: 1.3rem;
- color:var(--h1);
-}
-
-.name_mobile{
-    margin-right: 5px;
-    font-size: 1.3rem;
-    display: none;
-    color:var(--h1);
-}
-
-
-.icon{
- margin-left: 5px;
- width: 25px;
-}
-
-
-.darkLightMode_container{
-    width: 10%;
-    display: flex;
-    align-items: center;
-    justify-content:flex-end;
-    padding-right: 10px;
-    font-size: 2rem;
-
-
-}
-
-
-.buttonCloseMenuMobile{
-    width: 100%;
-    text-align: right;
-    padding: 20px;
-}
-
-
-
-
-
-
-@media (max-width: 768px){
-    .nav{
-        margin: 0px 0px;
-        padding: 0px 20px;
-    }
-    .listDesktop{
-        display: none;
-    }
-
-    .listMobile{
-        top: 0;
-        display: flex;
-        position:absolute;
-        background-color: var(--bg);
-        width:0px;
-        visibility: hidden;
-        height: 100vh;
-        transition: 0.5s ease;
-        border-right: 2px solid var(--ln-bold);
-        flex-direction: column;
-        align-items:flex-start;
-        justify-content:flex-start;
-        left: 0;
-        
-        
-    }
-    .listMobile ul{
-        width: 100%;
-    }
-    .listMobile ul li{
-        margin: 30px 10px;
-        transition: 0.3s;
-
-    }
-
-    .listMobile ul li a {
-        color:var(--h1);
-        font-size: 1.5rem;
-        padding: 0 20px;
-        overflow-x: hidden;
-        white-space: nowrap;
-    }
-
-    .buttonMenuMobile{
-        display: block;
-        width: 30px;
-        cursor: pointer;
-    }
-
-    .name{
-        display: none;
-    }
-
-    .name_mobile{
-
-        display:block
-    }
-    .darkLightMode_container{
-
-        font-size: 2rem;
-
-        justify-content: center;
-        width: fit-content;
-        padding-right: 0px;
-        
-
-    }
-
-}
