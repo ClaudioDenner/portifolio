@@ -1,19 +1,24 @@
 import styles from './About.module.css'
-import cdenner from '/assets/cdenner.png'
-import { Tools } from '../Tools/Tools'
-
+import cdenner from './assets/cdenner.svg'
+import imgCover from './assets/imgCover.svg'
 function About() {
   return (
-    <div className={styles.container}>
-        
-            <img src={cdenner} className={styles.cdenner}/>
+    <div className={styles.container} id='sobre'>
+      <div className={styles.section_one}>
+        <div className={styles.container_img_person}>
+          <img src={cdenner} className={styles.img_person}  />
+        </div>
+        <h1 className={styles.title}>
+          Olá, sou Claudio Denner, Developer FullStack
+        </h1>
+        <p className={styles.text}>
+        Obrigado pelo interesse! Sou um desenvolvedor de software que estuda Ciência da Computação. Minha principal linguagem é o Javascript e com ela atuo tanto server-side quanto client-side web/mobile. Dentro do ecossistema Javascript minha stack mais forte é o React e todas as suas tecnologias complementares.
+        </p>
+      </div>
 
-            <div className={styles.container_2}>
-              <h1 className={styles.title_section}>About</h1>
-              <p className={styles.apresentation}>Olá, bem vindo(a) ao meu portifólio, obrigado pelo interesse! Sou um desenvolvedor de software que estuda Ciência da Computação. Minha principal linguagem é o Javascript e com ela atuo tanto no server-side quanto no client-side web/mobile. Dentro do ecossistema Javascript minha stack mais forte é o React e todas as suas tecnologias complementares.</p>
-              <h1 className={styles.title_section}>Tolls & Stack</h1>
-              <Tools />
-            </div>
+      <div className={styles.section_two}>
+        <img src={imgCover} className={styles.img_cover} />
+      </div>
         
     </div>
   )
