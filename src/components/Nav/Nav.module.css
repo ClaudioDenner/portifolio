@@ -1,4 +1,9 @@
-.container{
+@keyframes expansionMenu {
+     0%{width: 0px}
+     100%{width: 60%}
+
+}
+.container_desktop{
     position: fixed;
     top: 0;
     left: 0;
@@ -8,8 +13,13 @@
     background-color: var(--backgroundSections);
     width: 100%;
     z-index: 100;
+}
+.container_mobile{
+    display: none;
+}
 
-
+.button_hamburger_mobile{
+    display: none;
 }
 
 .flex{
@@ -24,11 +34,11 @@
     height: 77px;
     cursor: pointer;
     transition: 0.5s ease;
+    &:hover{
+        filter: brightness(150%);
+        transition: 0.5s ease;
+    }
 
-}
-.logo:hover{
-    filter: brightness(150%);
-    transition: 0.5s ease;
 }
 
 .menu{
@@ -40,18 +50,74 @@
 .menu a{
     color: var(--textWhite);
     margin-right: 70px;
-    padding-bottom: 0px;
     padding: 5px;
     transition: 0.5s ease;
-    background-color: green;
-    
-    
-
+    &:hover{
+        color:var(--redPink);
+    }
 }
 
 .menuSelected{
     border-bottom: solid 2px var(--redPink);
     transition: 0.5s ease;
+    
+}
+.menuNotSelected{
+    border-bottom: solid 2px var(--backgroundSections);
+    transition: 0.5s ease;
+    
+}
+
+@media screen and (max-width:768px){
+    .container_desktop{
+        display: none;
+    }
+    .container_mobile_on{
+        display: flex;
+        position: fixed;
+        left: 0;
+        z-index: 100;
+        background-color: var(--backgroundSections);
+        width: 60%;
+        height: 100vh;
+        overflow: hidden;
+        animation: expansionMenu 0.8s normal;
+    }
+    .container_mobile_off{
+        display: none;
+
+
+    }
+    .menu_mobile{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .menu_mobile a{
+        color: var(--textWhite);
+        margin: 20px;
+        transition: 0.5s ease;
+        font-size: larger;
+        &:hover{
+            color:var(--redPink);
+        } 
+    }
+
+    .button_hamburger_mobile{
+        display: block;
+        position: fixed;
+        z-index: 100;
+        top:0;
+        right: 0;
+        margin: 20px;
+        color: var(--redPink);
+        font-size: 3rem;
+    }
     
 }
 
