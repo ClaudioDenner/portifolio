@@ -41,9 +41,9 @@ function Nav() {
           <img src={Logo} className={styles.logo} />
           
           <ul className={styles.menu}>
-            <a href='#' className={item1 ? styles.menuSelected: styles.menuNotSelected} onClick={()=>toggleMenu(1)}><li>Sobre</li></a>
-            <a href='#' className={item2 ? styles.menuSelected: styles.menuNotSelected } onClick={()=>toggleMenu(2)}><li>Contato</li></a>
-            <a href='#' className={item3 ? styles.menuSelected: styles.menuNotSelected} onClick={()=>toggleMenu(3)}><li>Projetos</li></a>
+            <a href='#about' className={item1 ? styles.menuSelected: styles.menuNotSelected} onClick={()=>toggleMenu(1)}><li>Sobre</li></a>
+            <a href='#projects' className={item3 ? styles.menuSelected: styles.menuNotSelected} onClick={()=>toggleMenu(3)}><li>Projetos</li></a>
+            <a href='#contact' className={item2 ? styles.menuSelected: styles.menuNotSelected } onClick={()=>toggleMenu(2)}><li>Contato</li></a>
           </ul>
         </div>
 
@@ -56,8 +56,8 @@ function Nav() {
       <div className={isActiveMobile ? styles.container_mobile_on : styles.container_mobile_off}>
           <ul className={styles.menu_mobile}>
             <a href='#about' className={item1 ? styles.menuSelected: styles.menuNotSelected} onClick={()=>toggleMenu(1)}><li>Sobre</li></a>
-            <a href='#contact' className={item2 ? styles.menuSelected: styles.menuNotSelected } onClick={()=>toggleMenu(2)}><li>Contato</li></a>
             <a href='#projects' className={item3 ? styles.menuSelected: styles.menuNotSelected} onClick={()=>toggleMenu(3)}><li>Projetos</li></a>
+            <a href='#contact' className={item2 ? styles.menuSelected: styles.menuNotSelected } onClick={()=>toggleMenu(2)}><li>Contato</li></a>
           </ul>
       </div>
 

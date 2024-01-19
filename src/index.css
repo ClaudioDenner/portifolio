@@ -3,8 +3,10 @@
 :root {
   --background: #161617;
   --backgroundSections: #1B1B1C;
+  --backgroundSectionsTransparent: #1b1b1cf1;
   --textWhite: #E3E3DC;
   --redPink:#E22741;
+  --titleSection: #2B2B2B;
 
 }
 
@@ -24,7 +26,8 @@ html {
 }
 
 :target{
-  scroll-margin-top: 10em;
+  scroll-margin-top: 1em;
+  color:var(--redPink);
 }
 
 body{

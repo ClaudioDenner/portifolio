@@ -61,5 +61,23 @@
 @media screen and (max-width:768px){
     .container{
         margin-top: 20px;
+        flex-direction: column;
+        width: 100%;
     }
+    .section_one{
+        width: 100%;
+        justify-content: center;
+    }
+    .section_two{
+        width: 100%;
+        justify-content: center;
+    }
+    .container_img_person{
+        text-align: center;
+    }
+    .title{
+        text-align: center;
+    }
+
+
 }

@@ -9,7 +9,7 @@ function About() {
           <img src={cdenner} className={styles.img_person}  />
         </div>
         <h1 className={styles.title}>
-          Olá, sou Claudio Denner, Developer FullStack
+          Olá, sou Claudio Denner, Desenvolvedor FullStack
         </h1>
         <p className={styles.text}>
         Obrigado pelo interesse! Sou um desenvolvedor de software que estuda Ciência da Computação. Minha principal linguagem é o Javascript e com ela atuo tanto server-side quanto client-side web/mobile. Dentro do ecossistema Javascript minha stack mais forte é o React e todas as suas tecnologias complementares.
