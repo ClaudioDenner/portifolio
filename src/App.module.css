@@ -5,7 +5,7 @@
     font-style: normal;
     font-weight: 700;
 }
-
+ 
 .navigator_project{
     display:flex;
     align-items: center;
@@ -42,4 +42,8 @@
     font-size: 4rem;
     text-align: center;
    } 
+
+   .navigator_project{
+    flex-direction: column;
+   }
 }

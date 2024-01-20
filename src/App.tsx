@@ -1,11 +1,11 @@
 import styles from './App.module.css'
-import { Section1 } from './bd/Section1'
 import About from './components/About/About'
 import Nav from './components/Nav/Nav'
 import { useState } from 'react'
 import ProjectsSection1 from './components/Projects/Section1/ProjectsSection1'
 import ProjectsSection2 from './components/Projects/Section2/ProjectsSection2'
 import ProjectsSection3 from './components/Projects/Section3/Section3'
+import Contact from './components/Contact/Contact'
 
 
 function App() {
@@ -47,6 +47,8 @@ function App() {
       {sectionOne && <ProjectsSection1 />}
       {sectionTwo && <ProjectsSection3 />}
       {sectionThree && <ProjectsSection2 />}
+    <h1 className={styles.title_section} id='contact'>Contato</h1>
+    <Contact />
     </main>
     </>
   )

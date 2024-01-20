@@ -3,7 +3,7 @@ import cdenner from './assets/cdenner.svg'
 import imgCover from './assets/imgCover.svg'
 function About() {
   return (
-    <div className={styles.container} id='sobre'>
+    <div className={styles.container} id='about'>
       <div className={styles.section_one}>
         <div className={styles.container_img_person}>
           <img src={cdenner} className={styles.img_person}  />
