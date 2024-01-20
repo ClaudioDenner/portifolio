@@ -9,7 +9,7 @@ export const Section1 = [
         "type":"Auxiliadora em cálculos de finanças pessoais simples",
         "date":"Aug 15, 2023",
         "tools":["icon-react-native.svg","icon-js.svg"],
-        "plataform":"Web",
+        "plataform":"Web / Frontend",
         "description":"Esse projeto consiste em um Organizador de Contas, onde você pode listar Receitas em uma aba Despesas em outra. Em tempo real os subtotais por categoria são atualizados e é possível excluir e ordenar os itens adicionados. Um projeto que utiliza muita manipulação de array, LocalStorage e props."
 
     },
@@ -21,7 +21,7 @@ export const Section1 = [
         "type":"Catálogo Virtual",
         "date":"Aug 15, 2023",
         "tools":["icon-vue.svg","icon-js.svg","icon-bootstrap.svg"],
-        "plataform":"Web",
+        "plataform":"Web / Frontend",
         "description":"Este é um catálogo virtual que construi para um comerciante que tinha a necessidade de mostrar seus produtos online e de forma simples. O projeto visava direcionar o usuário para o contato Instagram e WhatsApp do comerciante."
     },
     {
@@ -32,7 +32,7 @@ export const Section1 = [
         "type":"Portifólio Profissional",
         "date":"Mar 1, 2023",
         "tools":["icon-html.svg","icon-css.svg","icon-js.svg"],
-        "plataform":"Web",
+        "plataform":"Web / Frontend ",
         "description":"Portifólio completo construído para um Profissional da àrea de dados. Projeto conta com interatividade, responsividade e muita informação clara e objetiva sobre o trabalho do profissional."
 
     },
@@ -44,11 +44,21 @@ export const Section1 = [
         "type":"Blog de Arte Digital",
         "date":"Dec 2, 2023",
         "tools":["icon-react-native.svg","icon-firebase.svg","icon-nextjs.svg","icon-ts.svg"],
-        "plataform":"Mobile/Web",
+        "plataform":"Mobile/Web/Frontend",
         "description":"Blog pessoal construído em Next.js integrado com Firebase e estilizado com Chackra Ui. Com vários elementos comuns aos blogs do gênero e com uma versão para Android construída com React Native."
-
-
     },
+    {
+        "id":8,
+        "title":"Agendamento Revisão Veicular",
+        "nameImg":"revisaoVeicular.gif",
+        "urlProject":"https://github.com/ClaudioDenner/App-Schedule-Revision-Car",
+        "type":"Aplicação de utilidade",
+        "date":"Jan 13, 2024",
+        "tools":["icon-ts.svg","icon-nest.svg","icon-nextjs.svg","icon-postgre.svg","icon-docker.svg","icon-swagger.svg"],
+        "plataform":"Web/FullStack",
+        "description":"Este projeto consiste em um mini sistema com a função de cadastrar um cliente, vincular um ou mais veículos ao cliente e posteriormente marcar uma ou mais revisões para o veículo atrelado ao cliente. Este projeto foi feito em três partes sendo elas: banco de dados, backend e frontend(Postgres, Nest.js, Next.js). Todas as partes foram montadas e orquestradas em um ambiente Docker."
+    },
+    
     
 
 ]

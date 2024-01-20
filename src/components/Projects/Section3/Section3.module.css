@@ -5,7 +5,6 @@
     justify-content:flex-start;
     width: 100%;
     max-width: 1440px;
-    background-color: var(--ln) ;
     flex-wrap: wrap;
     padding-left: 20px;
 }
@@ -14,9 +13,9 @@
     border-radius: 10px;
     width: 23%;
     overflow: hidden;
-    border: 1px solid var(--ln);
+    border: 1px solid var(--textWhite);
     margin: 10px;
-    background-color: var(--bg);
+    background-color: var(--backgroundSections);
     
 }
 
@@ -51,14 +50,14 @@
 
 .card_infos_title{
     text-align: center;
-    color: var(--orangeWhite);
+    color: var(--textWhite);
     font-size: 1rem;
     margin-top: 10px;
 }
 
 .card_infos_links_title{
     text-align: center;
-    color: var(--p);
+    color: var(--textWhite);
     font-size: 0.7rem;
     margin-top: 10px;
 }
@@ -68,11 +67,11 @@
     cursor: pointer;
     width: 20px;
     height: 20px;
-    filter: invert(33%) sepia(13%) saturate(6367%) hue-rotate(215deg) brightness(90%) contrast(91%);
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(214deg) brightness(105%) contrast(102%);
 }
 
 .card_infos_links_icons:hover{
-    filter: invert(16%) sepia(77%) saturate(6483%) hue-rotate(154deg) brightness(150%) contrast(83%);
+    filter: invert(37%) sepia(42%) saturate(2932%) hue-rotate(327deg) brightness(93%) contrast(94%)
 }
 
 @media (max-width:768px){

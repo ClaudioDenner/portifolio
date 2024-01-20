@@ -1,9 +1,23 @@
+.page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container{
+    max-width: 1440px;
+}
+
 .title_section{
     color: var(--titleSection);
     font-family: Roboto;
     font-size: 900%;
     font-style: normal;
     font-weight: 700;
+    text-align: left;
+    width: 100%;
+    margin-top: 20px;
 }
  
 .navigator_project{
@@ -45,5 +59,14 @@
 
    .navigator_project{
     flex-direction: column;
+   }
+
+   .navigator_project_on{
+    width: 90%;
+    margin-bottom: 15px;
+   }
+   .navigator_project_off{
+    width: 90%;
+    margin-bottom: 15px;
    }
 }

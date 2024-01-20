@@ -3,6 +3,10 @@
      100%{width: 60%}
 
 }
+
+.inative{
+    display: none;
+}
 .container_desktop{
     position: fixed;
     top: 0;

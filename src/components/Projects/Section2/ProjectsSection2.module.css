@@ -15,12 +15,13 @@
 }
 
 .item{
-    max-width: 16%;
+    max-width: 25%;
     display: block;
-    border: 1px solid var(--ln);
+    border: 1px solid var(--textWhite);
     margin: 10px;
     flex-grow: 1;
     overflow: hidden;
+    background-color: var(--backgroundSections);
 }
 
 .item img{
@@ -38,7 +39,7 @@
     font-size: 0.8rem;
     text-align: center;
     margin: 12px;
-    color: var(--p);
+    color: var(--textWhite);
 }
 
 @media(max-width:768px){
@@ -47,7 +48,8 @@
         padding-left: 0px;
     }
     .item{
-        width: 25%;
+        width: 45%;
+        max-width: 40%;
     }
 
 }

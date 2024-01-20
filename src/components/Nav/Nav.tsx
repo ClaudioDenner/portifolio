@@ -47,7 +47,7 @@ function Nav() {
           </ul>
         </div>
 
-        <div onClick={()=>setActive(!isActive)}>
+        <div onClick={()=>setActive(!isActive)} className={styles.inative}>
         <ToggleMenu active={isActive} />
         </div>
 

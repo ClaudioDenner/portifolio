@@ -35,20 +35,24 @@ function App() {
 
   return (
     <>
-    <main>
-    <Nav />
-    <About />
-    <h1 className={styles.title_section} id='projects'>Projetos</h1>
-    <ul className={styles.navigator_project}>
-      <li className={sectionOne ? styles.navigator_project_on : styles.navigator_project_off} onClick={()=>handleProjects(1)}>Meus trabalhos & Projetos</li>
-      <li className={sectionTwo ? styles.navigator_project_on : styles.navigator_project_off} onClick={()=>handleProjects(2)} >Desafios</li>
-      <li className={sectionThree ? styles.navigator_project_on : styles.navigator_project_off} onClick={()=>handleProjects(3)}>Meu Playground</li>
-    </ul>
-      {sectionOne && <ProjectsSection1 />}
-      {sectionTwo && <ProjectsSection3 />}
-      {sectionThree && <ProjectsSection2 />}
-    <h1 className={styles.title_section} id='contact'>Contato</h1>
-    <Contact />
+    <main className={styles.page}>
+      <div className={styles.container}>
+
+        
+        <Nav />
+        <About />
+        <h1 className={styles.title_section} id='projects'>Projetos</h1>
+        <ul className={styles.navigator_project}>
+          <li className={sectionOne ? styles.navigator_project_on : styles.navigator_project_off} onClick={()=>handleProjects(1)}>Meus trabalhos & Projetos</li>
+          <li className={sectionTwo ? styles.navigator_project_on : styles.navigator_project_off} onClick={()=>handleProjects(2)} >Desafios</li>
+          <li className={sectionThree ? styles.navigator_project_on : styles.navigator_project_off} onClick={()=>handleProjects(3)}>Meu Playground</li>
+        </ul>
+          {sectionOne && <ProjectsSection1 />}
+          {sectionTwo && <ProjectsSection3 />}
+          {sectionThree && <ProjectsSection2 />}
+        <h1 className={styles.title_section} id='contact'>Contato</h1>
+        <Contact />
+      </div>
     </main>
     </>
   )
