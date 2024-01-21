@@ -29,13 +29,14 @@
     margin: 5px;
     width: 50%;
     background-color: var(--backgroundSections);
-   
+    height: 350px;
 
 }
+
 .imgProject img{
     width: 100%;
     transition: 0.4s ease;
-
+    background-color:var(--backgroundSections);
 }
 
 .imgProject img:hover{
@@ -137,6 +138,8 @@
 
     .description_item{
         width: 100%;
+        border: none;
+        margin-bottom: 15px;
     }
 
     .title{
@@ -155,7 +158,6 @@
     }
 
     .icon{
-        font-size: 1.5rem;
-
+        display: none;
     }
 }
