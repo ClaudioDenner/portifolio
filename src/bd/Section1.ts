@@ -58,6 +58,17 @@ export const Section1 = [
         "plataform":"Web/FullStack",
         "description":"Este projeto consiste em um mini sistema com a função de cadastrar um cliente, vincular um ou mais veículos ao cliente e posteriormente marcar uma ou mais revisões para o veículo atrelado ao cliente. Este projeto foi feito em três partes sendo elas: banco de dados, backend e frontend(Postgres, Nest.js, Next.js). Todas as partes foram montadas e orquestradas em um ambiente Docker."
     },
+    {
+        "id":9,
+        "title":"Área do Condômino",
+        "nameImg":"condominio.gif",
+        "urlProject":"https://github.com/ClaudioDenner/ProjetoCondominio",
+        "type":"Aplicação de utilidade",
+        "date":"Mar 15, 2024",
+        "tools":["icon-ts.svg","icon-nest.svg","icon-nextjs.svg","icon-mysql.svg","icon-docker.svg","icon-swagger.svg"],
+        "plataform":"Web/FullStack",
+        "description":"O projeto carrega a temática de um painel de usuário de condomínio, portanto traz a emulação de alguns serviços comuns a esse tipo de sistema como: painel de notícias, financeiro, solicitação, etc."
+    },
     
     
 
